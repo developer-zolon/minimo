@@ -1,0 +1,181 @@
+/*basic css*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+#scrollUp {
+    text-indent: -999999px;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px 20px;
+    background: url(../img/bootom-to-top.png);
+    background-size: 100% auto;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background-color: #d6d3c1;
+    border-radius: 50px;
+}
+
+/*basic css end*/
+/*header part start*/
+#header-area {}
+
+nav ul li {
+    padding-left: 10px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*header part end*/
+/*Banera area start*/
+#banner-area .baner img {
+    width: 100%;
+    height: auto;
+}
+
+/*Baner area end*/
+/*photodiary area start*/
+#photodiary {
+    padding: 80px 0;
+}
+
+#photodiary p.title,
+#photodiary p.title-footer,
+p.card-top-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #88847C;
+}
+
+#photodiary h2.sub-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #989898;
+}
+
+#photodiary p.title-text {
+    padding: 20px 0;
+    font-weight: 16px;
+    line-height: 28px;
+    color: #989898;
+    padding-right: 90px;
+}
+
+.card h5.card-title {
+    font-size: 25px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    margin-top: 20%;
+}
+
+/*photodiary area end*/
+/* sign-up-area start*/
+#sign-up-area {
+    padding: 90px 0px;
+    background-color: #F0F0F0;
+}
+
+#sign-up-area .sign-up-content h2 {
+    font-size: 28px;
+    padding-bottom: 70px;
+    color: #323232;
+}
+
+.input-group {
+    border-bottom: 2px solid;
+}
+
+.input-group .form-control::placeholder {
+    color: black;
+}
+
+.form-control,
+.input-group-text {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.input-group-text i {
+    font-size: 20px;
+    transform: rotate(50deg);
+}
+
+/* sign-up-area end*/
+/*life style area start*/
+#life-style-area {
+    padding: 70px 0;
+}
+
+#life-style-area .custom-button .btn-custom {
+    margin-top: 8%;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+
+/*life style area end*/
+/*  footer-area start*/
+#footer-area {
+    padding: 30px 0;
+    background-color: #F0F0F0;
+    color: #0a0a0a;
+}
+
+#footer-area .text-area p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 0;
+    color: #616161;
+}
+
+#footer-area ul {
+    margin-left: 55%
+}
+
+#footer-area ul.social-icon li a {
+    color: #0a0a0a;
+    font-size: 21px;
+    padding-right: 10px;
+    padding: 0 10p;
+    color: #616161;
+}
+
+#footer-area ul.social-icon li a:hover {
+    color: #33CADF;
+}
+
+/*  footer-area end*/

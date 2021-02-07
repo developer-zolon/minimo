@@ -1,0 +1,78 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 374px) and (max-width: 575.98px) {
+    #photodiary h2.sub-title {
+        font-size: 22px;
+    }
+
+    .card h5.card-title {
+        font-size: 20px;
+    }
+
+    #sign-up-area .sign-up-content h2 {
+        font-size: 22px;
+    }
+
+    #life-style-area .custom-button .btn-custom {
+        margin-top: 8%;
+        padding: 6px 12px;
+        font-size: 25px;
+    }
+
+    #footer-area ul {
+        margin-left: 10%;
+    }
+
+    #footer-area ul li {
+        font-size: 15px;
+    }
+
+    #footer-area .text-area p {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #sign-up-area .sign-up-content h2 {
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+    #footer-area ul {
+        margin-left: 20%;
+    }
+
+    #footer-area ul li {
+        font-size: 16px;
+    }
+
+    #footer-area .text-area p {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #sign-up-area .sign-up-content h2 {
+        padding-bottom: 40px;
+        font-size: 25px;
+    }
+
+    #footer-area ul {
+        margin-left: 40%
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #sign-up-area .sign-up-content h2 {
+        font-size: 24px;
+    }
+
+    #footer-area ul {
+        margin-left: 50%
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
